@@ -4,130 +4,578 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>ATC Tech Limited</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="/asset/icon/ATC logo-02.png" type="image/png">
 
         <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}.z-10{z-index: 10}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
-        </style>
+      
+         @vite('resources/css/app.css')
     </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
+    <body>
+        <header class=" md:min-h-[700px]    text-white ">
+            <section class="absolute z-10 w-full  bg-opacity-80  
+            bg-gradient-to-b from-slate-800">
+                <nav class="flex flex-col lg:flex-row md:justify-around md:items-center p-4    ">
+                    <div>
+                        <img class="w-32 mx-auto md:mx-0 md:w-60" src="/asset/icon/ATC-Logo-white.png" alt="ATC-logo">
+                    </div>
+                    <div>
+                        <ul
+                            class="  lg:p-0 flex flex-row justify-between    flex-wrap md:flex-row gap-2 md:gap-5 md:text-xl md:font-medium text-xs  ">
+                            <li class="hover:font-bold hover:text-sky-700"><a href="#">Home</a></li>
+                            <li class="hover:font-bold hover:text-sky-700"><a href="#">Current Openings</a></li>
+                            <li class="hover:font-bold hover:text-sky-700"><a href="#">About US</a></li>
+                            <li class="hover:font-bold hover:text-sky-700"><a href="#">Contact Us</a></li>
+                            <li class="hidden md:block  "><a href="#">
+                                    <img class="w-9 p-2 rounded-full bg-[#0F79B9] hover:bg-teal-700"
+                                        src="/asset/icon/search-alt-svgrepo-com.svg" alt=""></a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </nav>
+                <!-- HERO Section -->
+                <section class="flex items-center justify-center z-10 min-h-[400px]  md:min-h-[600px] ">
+                    <div class="md:max-w-7xl md:mx-auto w-full text-center space-y-4">
+                        <h2 class="md:text-6xl text-2xl ">
+                            <span class="font-light">Innovate,</span>
+                            <span class="font-bold text-[#0f79b9]">Create</span>
+                            <span class="font-light">, Elevate</span>
+                        </h2>
+                        <h2 class="md:text-6xl text-xl font-bold">
+                            Your Digital Journey Starts Here.
+                        </h2>
+                        <div
+                            class="flex gap-4 justify-center items-center text-xs md:text-lg py-2 md:py-4 divide-x-2 md:min-h-28  ">
+                            <h3 class="">7+ years <br> experience</h3>
+    
+                            <h3 class="pl-4">24/7 Customer <br> Support</h3>
+                        </div>
+                        <button class=" text-white bg-[#0f79b9] hover:bg-gray-500 md:text-2xl md:font-semibold p-2 md:px-4 md:py-3 rounded-lg shadow-xl 
+                            flex gap-2 items-center mx-auto ">Contact
+                            US <span><img class=" w-5 md:w-10" src="/asset/icon/arrow.svg" alt=""></span></button>
+                    </div>
+                </section>
+            </section>
+            <!-- carusol start -->
+            <section class="  relative  w-full -z-0">
+                <div class=" h-[510px]  md:h-[700px] w-full overflow-hidden flex flex-nowrap text-center" id="slider">
+                    <div class=" flex-none w-full flex flex-col items-center justify-center">
+                        <img src="/asset/background/hacker-dark-room-image.jpg" alt="">
+                    </div>
+                    <!-- <div class=" flex-none w-full flex flex-col items-center justify-center">
+                        <img src="./asset/background/Carousel-image-3.jpg" alt="">
+                    </div> -->
+                    <div class=" flex-none w-full flex flex-col items-center justify-center">
+                        <img src="/asset/background/robot-working-office-instead-humans.jpg" alt="">
+                    </div>
                 </div>
-            @endif
-
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
-                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
-                    </svg>
+            </section>
+            <!-- carusol end -->
+        </header>
+    
+    
+        <main class="w-full">
+            <!-- Benefits Section -->
+            <section class="pb-10 p-4  lg:mt-10">
+                <div class="text-center space-y-6 pb-14 max-w-6xl mx-auto">
+                    <h2 class="md:text-4xl text-3xl font-semibold"> <span class="text-[#0f79b9]">Unleash</span> Your
+                        Business Potential with ATC Tech Ltd
+                    </h2>
+                    <p class="md:text-lg font-normal text-justify ">
+                        Experience a transformative journey with our
+                        comprehensive services. Gain a competitive edge with our innovative solutions, boost productivity
+                        and efficiency, achieve ambitious business goals, reduce costs, save time, and empower your team.
+                        With personalized strategies, proven expertise, and measurable results, partner with ATC Tech Ltd.
+                        for lasting success. Contact us now to discover the difference we can make for your business!
+                    </p>
                 </div>
-
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
-                                </p>
-                            </div>
+                <!-- container -->
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 max-w-6xl mx-auto md:gap-14 gap-8">
+                    <!-- card 1 -->
+                    <div class="text-center p-8 border-t-8 rounded-2xl border-[#0f79b9]  shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto" src="/asset/icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
+                        <p class=" text-justify tracking-tighter leading-relaxed  ">
+                            Our software development services are customized to meet the unique needs of each client,
+                            ensuring that the final product aligns perfectly with their requirements and objectives.
+                        </p>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto  rounded-2xl " src="/asset//icon/bot.svg" alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Cutting-edge AI Solutions</h2>
+                        <p class="text-justify tracking-tighter leading-relaxed ">
+                            Our artificial intelligence solutions enable businesses to harness the power of advanced
+                            algorithms and data analytics to optimize processes, make data-driven decisions, and gain a
+                            competitive edge in their industry.
+                        </p>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto" src="/asset/icon/shield-check-svgrepo-com.svg" alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Robust Security Measures</h2>
+                        <p class="text-justify tracking-tighter leading-relaxed ">
+                            With our expertise in software and network security, customers can rest assured that their
+                            sensitive data and systems are protected against cyber threats, breaches, and unauthorized
+                            access.
+                        </p>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto" src="/asset/icon/cloud-check-svgrepo-com.svg" alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Scalable Cloud Services</h2>
+                        <p class="text-justify tracking-tighter leading-relaxed ">
+                            Our cloud services empower organizations to leverage the flexibility, scalability, and
+                            cost-efficiency of cloud computing, enabling them to adapt to changing business needs and
+                            accelerate digital transformation initiatives.
+                        </p>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto" src="/asset/icon/box-minimalistic-svgrepo-com.svg"
+                            alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Streamlined DevOps Practices</h2>
+                        <p class="text-justify tracking-tighter leading-relaxed ">
+                            By bridging the gap between development and operations, our DevOps expertise fosters a seamless
+                            workflow, leading to quicker deployments, robust software quality, and a faster path to market
+                            success.
+                        </p>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                        <img class="w-14 my-4 mx-auto"
+                            src="/asset/icon/problem-solving-fix-offer-solution-solve-svgrepo-com.svg" alt="terminal-icon">
+                        <h2 class="font-semibold text-xl">Innovative IoT Solutions</h2>
+                        <p class=" text-justify tracking-tighter leading-relaxed ">
+                            We enable businesses to capitalize on the Internet of Things by designing and implementing IoT
+                            solutions that enhance connectivity, efficiency, and automation across various devices and
+                            platforms.
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Extra section -->
+            <section>
+                <div
+                    class=" md:max-w-6xl w-fit  md:mt-8 px-4 md:px-10 py-4 rounded-lg lg:mx-auto mx-4 bg-[url('/public/asset/background/stacked.svg')] shadow-2xl  ">
+                    <div class=" text-white   mx-auto py-10 max-w-6xl flex justify-center items-center  ">
+                        <h2
+                            class="w-full font-medium md:font-semibold md:text-3xl text-xl text-justify tracking-tight leading-normal">
+                            We don't just speak the language of technology, we translate it into tangible results. That's
+                            what makes ATC Tech Limited different . . .
+                        </h2>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Our services -->
+            <section class="   pb-10  p-4 ">
+                <div class="text-center py-14 space-y-4">
+                    <h1 class="text-4xl font-semibold">Our <span class="text-[#0F79B9]">Services</span></h1>
+                    <p class="text-lg max-w-6xl mx-auto leading-relaxed text-justify    ">
+                        For over 7 years, ATC Tech Limited has been dedicated to providing innovative and sustainable
+                        solutions. Our team of skilled engineers is passionate about creating high-quality products that
+                        meet your needs while minimizing environmental impact. We are committed to exceeding your
+                        expectations and building long-lasting partnerships.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 text-left">
+    
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg  ">
+                        <img class="w-14   hover:ease-in-out ease-in-out "
+                            src="/asset/icon/Ourservice_Icons/1.Software_Developement.png" alt="">
+                        <h2 class="md:text-xl font-medium">Software Development</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/2.Web_Development.png" alt="">
+                        <h2 class="md:text-xl font-medium">Web Development</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/3.Mobile_Application_Development.png" alt="">
+                        <h2 class="md:text-xl font-medium w-fit">App Development</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/4.UI_UX_Design.png" alt="">
+                        <h2 class="md:text-xl font-medium">UI/UX Design</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/5.Quality_Assurance_And_Testing.png" alt="">
+                        <h2 class="md:text-xl font-medium">SQA & Testing</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/6.Artificial-Intelligence.png" alt="">
+                        <h2 class="md:text-xl font-medium">Artificial Intelligence</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/7.Cloud-Service-Solution.png" alt="">
+                        <h2 class="md:text-xl font-medium">Cloud Solution</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/8.Cyber-Security.png" alt="">
+                        <h2 class="md:text-xl font-medium">Cyber Security</h2>
+                    </div>
+                    <div
+                        class="flex   items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/9.Data_Analyst.png" alt="">
+                        <h2 class="md:text-xl    font-medium">Data Analytics</h2>
+                        <!-- & Business Intelligence -->
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/10.Consulting_Service.png" alt="">
+                        <h2 class="md:text-xl font-medium">Consulting Services</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/11.Devops.png" alt="">
+                        <h2 class="md:text-xl font-medium">Dev Ops</h2>
+                    </div>
+                    <div
+                        class="flex  items-center justify-around gap-4 border-2 border-[#0F79B9] p-4 hover:bg-sky-600 hover:text-white rounded-lg ">
+                        <img class="w-14 " src="/asset/icon/Ourservice_Icons/12.graphic-design.png" alt="">
+                        <h2 class="md:text-xl font-medium">Graphic Design</h2>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- What We Do Section -->
+            <section class="  w-full flex flex-col md:flex-row items-center  lg:px-20   
+                bg-[url('/public/asset/background/final.svg')] bg-no-repeat lg:bg-[length:100%] p-4   lg:h-[600px]       ">
+                <section class="md:px-4 px-2  mx-auto w-full">
+                    <div class="w-full mx-auto  text-center   md:w-11/12 xl:w-9/12 ">
+                        <h1 class="p-2 md:p-4 mb-6 text-2xl   md:text-4xl md:tracking-tight">
+                            <span
+                                class="block w-full text-transparent italic md:text-justify text-left  leading-relaxed md:leading-relaxed bg-clip-text bg-gradient-to-r from-[#0F79B9] to-[#0F79B9] md:inline">
+                                ATC Tech Ltd. delivers
+                                tailored technology
+                                solutions, from software
+                                development to AI and cloud
+                                services, empowering
+                                Businesses to thrive in the
+                                Digital Age.
+                            </span>
+                        </h1>
+                        <button
+                            class="hover:bg-[#0f79b9] shadow-2xl hover:text-white  font-semibold text-white md:text-black px-6 py-3 my-6 w-fit mx-auto rounded-lg border-b-2  ">Let’s
+                            Connect </button>
+                    </div>
+                </section>
+            </section>
+    
+            <!-- Our exparties -->
+            <section class="w-full   ">
+                <div class="md:max-w-6xl md:mx-auto text-center md:py-16 pt-8 pb-4   md:space-y-4 space-y-2">
+                    <h1 class="text-4xl font-medium">Our <span class="text-[#0f79b9] font-bold"> Expertise</span></h1>
+                    <p class="md:text-lg p-4 text-justify leading-relaxed">
+                        With a proven track record of success in outsourcing projects for diverse clients across Singapore,
+                        Malaysia, Dubai, and the USA, we possess a deep understanding of international business requirements
+                        and cultural nuances. We are committed to fostering strong communication and collaboration,
+                        regardless of location, to deliver exceptional results for your global organization.
+                    </p>
+                </div>
+    
+                <!-- container -->
+                <div class="md:max-w-6xl md:mx-auto grid grid-cols-1 gap-10 p-4 lg:p-0  ">
+    
+                    <!-- card 1 -->
+                    <div
+                        class="w-full md:h-60   shadow-2xl rounded-lg border-b-4 border-[#0F79B9]    flex md:flex-row flex-col    justify-between ">
+                        <div class="md:w-1/2">
+                            <img class=" rounded-l-lg w-full h-full object-cover" src="/asset/services/1_ChatBot.jpg"
+                                alt="">
+                        </div>
+                        <div class="space-y-4 pt-4 p-6">
+                            <h2 class="text-2xl font-semibold">Chatbots</h2>
+                            <p class="text-sm md:text-base leading-relaxed text-pretty tracking-tighter  ">Chatbots are
+                                AI-powered
+                                software that can
+                                interact with
+                                users
+                                in a
+                                conversational
+                                manner.
+                                They can provide customer support, answer common questions, and guide users through the
+                                website. Chatbot services offer advanced functionalities for creating interactive chatbots
+                            </p>
+                            <button class="bg-[#0f79b9] shadow-2xl my-4 w-fit  px-4 rounded-lg text-white   py-2">Read
+                                more</button>
+                        </div>
+    
+                    </div>
+    
+                    <!-- card flip -2 -->
+                    <div
+                        class="w-full md:h-60   shadow-2xl rounded-lg border-b-4 border-[#0F79B9]   flex md:flex-row  flex-col-reverse    justify-between ">
+    
+                        <div class="space-y-4 pt-4 p-6 mb-4">
+                            <h2 class="text-2xl font-semibold">Adaptation of Machine Learning</h2>
+                            <p class="text-sm md:text-base leading-relaxed text-pretty tracking-tighter ">
+                                Given our focus on the machine learning in our software and commitment to delivering
+                                exceptional products to our customers, machine learning platforms play a vital role in our
+                                work. These platforms provide the essential tools and infrastructure to efficiently develop
+                                and deploy machine learning models, while AI software offers robust frameworks, libraries,
+                                and tools to streamline the entire AI model development and deployment process, aligning
+                                perfectly with our company culture.
+                            </p>
+                            <button class="bg-[#0f79b9] my-4 w-fit  px-4 rounded-lg shadow-2xl text-white   py-2">Read
+                                more</button>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img class=" w-full h-full  rounded-r-lg object-cover"
+                                src="/asset/services/14_Machine_Learning_platfrom.jpg" alt="">
+                        </div>
+                    </div>
+    
+    
+                    <!-- card 3 -->
+                    <div
+                        class="w-full md:h-60   shadow-2xl rounded-lg border-b-4 border-[#0F79B9]  flex md:flex-row flex-col     justify-between ">
+                        <div class="md:w-1/2">
+                            <img class=" rounded-l-lg w-full h-full object-cover"
+                                src="/asset/services/16.software_development.jpg" alt="">
+                        </div>
+                        <div class="space-y-4 pt-4 p-6 ">
+                            <h2 class="text-2xl font-semibold">Software Development</h2>
+                            <p class="text-sm md:text-base leading-relaxed text-pretty tracking-tighter  ">
+                                At our company, we believe in harnessing the power of modern technology to craft exceptional
+                                websites. Our team of brilliant minds collaborates closely, leveraging their expertise in
+                                software development to design and build user-centric, impactful experiences that empower
+                                our clients and their audiences
+                            </p>
+                            <button class="bg-[#0f79b9] shadow-2xl my-4 w-fit  px-4 rounded-lg text-white   py-2">Read
+                                more</button>
+                        </div>
+                    </div>
+    
+    
+                    <!-- card flip -4 -->
+                    <div
+                        class="w-full md:h-60   shadow-2xl rounded-lg border-b-4 border-[#0F79B9]   flex md:flex-row flex-col-reverse    justify-between ">
+    
+                        <div class="space-y-4 pt-4 p-6">
+                            <h2 class="text-2xl font-semibold">Fraud Detection and Cyber Security</h2>
+                            <p class="text-sm md:text-base leading-relaxed text-pretty tracking-tighter  ">
+                                Our unwavering commitment is safeguarding your data. We employ cutting-edge fraud detection
+                                systems to shield your software and information from cyber attacks. In the rare event of a
+                                breach, our data recovery expertise ensures a swift comeback. Additionally, our digital
+                                forensics team meticulously investigates incidents, while robust security protocols offer
+                                unwavering resistance against digital warfare.
+                            </p>
+                            <button class="bg-[#0f79b9] shadow-2xl my-4 w-fit  px-4 rounded-lg  text-white py-2">Read
+                                more</button>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img class=" w-full h-full rounded-r-lg object-cover"
+                                src="/asset/services/11.Predictive_Analysis.jpg" alt="">
                         </div>
                     </div>
                 </div>
-
-                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm sm:text-left">
-                        &nbsp;
+            </section>
+    
+    
+            <!-- Insider section -->
+            <section class="  md:mt-16 shadow-lg     ">
+                <section class="flex  gap-4 py-4 w-full bg-gray-100 shadow-lg  mt-10    ">
+                    <div class="md:w-1/2 hidden md:block">
+                        <img class="  w-96   " src="/asset/background/Lovepik_com-400671134-geometric-lines (2).png"
+                            alt="">
                     </div>
-
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                    <div class="md:w-1/2 w-full text-center flex flex-col justify-center items-center space-y-4 p-4  ">
+                        <h2 class="text-3xl md:text-4xl font-semibold">Become an <span class="text-[#0f79b9]">insider</span>
+                        </h2>
+                        <p class="md:text-lg font-normal text-wrap "> Elevate your career with us as we shape the future of
+                            technology
+                            together.</p>
+                        <button
+                            class="text-white bg-[#0f79b9] hover:bg-gray-300 hover:text-black md:text-xl font-semibold md:px-3 py-2 px-6 md:py-2 rounded-lg shadow-xl ">Join
+                            Us</button>
+                    </div>
+                </section>
+            </section>
+    
+            <!-- quote Section -->
+            <section class="  mt-10 md:mb-10 mb-8     ">
+                <div class=" w-full  flex justify-center   ">
+                    <div
+                        class="flex flex-col items-center max-w-5xl w-fit p-2 md:p-4 m-2 md:mb-8 md:mx-auto  lg:mx-0 md:border-4 md:border-[#0F79B9]">
+                        <div class="relative text-center p-4 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                class="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
+                                <path fill="currentColor" d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                            </svg>
+                            <p class="px-6 py-1 md:text-2xl text-pretty leading-relaxed tracking-wider     "> Building on
+                                seven years of
+                                successful
+                                software
+                                development,
+                                ATC confidently approaches future needs. Our highly skilled engineers, trained in
+                                international quality standards, ensure flawless execution and uncompromising data security.
+                                We empower organizations through technology and strive for global leadership, fueled by
+                                stakeholder support and a commitment to innovation. </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                class="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
+                                <path fill="currentColor" d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                            </svg>
+                        </div>
+                        <span class="w-12 h-1 my-2 rounded-lg dark:bg-[#0f79b9]"></span>
+                        <p><span class="font-bold text-lg">MD & CEO at ATC Tech Limited</span>
+                        </p>
                     </div>
                 </div>
-            </div>
-        </div>
+                <button
+                    class="bg-[#0f79b9] hover:bg-teal-700 text-white p-4  md:p-6  rounded-2xl shadow-2xl font-bold relative -right-5 md:-right-16 w-fit mt-4 ">
+                    <span> <img class=" w-6 md:w-10 mx-auto text-white " src="./asset/icon/chat.svg" alt=""></span> Let's
+                    Chat
+                </button>
+            </section>
+    
+            <!-- Project Section -->
+            <section class="bg-blue-950">
+                <!-- bg-[#1e1e1e] -->
+                <section
+                    class="py-8 text-white  flex flex-col md:flex-row justify-around items-center gap-4 md:max-w-7xl  md:mx-auto ">
+                    <div
+                        class="md:w-1/4 w-fit space-y-10 md:p-4  text-center md:text-left flex flex-col  justify-between  ">
+                        <h2 class=" text-3xl md:text-5xl font-semibold">Let's talk about <br> your project</h2>
+                        <button
+                            class="text-white bg-[#0f79b9]  md:text-xl font-semibold md:px-3 md:py-2 mx-auto md:mx-0  py-2 px-6 w-fit  rounded-lg shadow-xl  ">Schedule
+                            a
+                            call</button>
+                    </div>
+                    <!-- input filed -->
+                    <div class="md:w-9/12 w-full flex flex-col gap-10   p-14  ">
+                        <div class="flex flex-row justify-around gap-14">
+                            <input class=" w-1/2 p-2 text-lg font-semibold  border-b-2 bg-blue-950 border-white" type="text"
+                                placeholder="Name*">
+                            <input class=" w-1/2 p-2 text-lg font-semibold  border-b-2 bg-blue-950 border-white"
+                                type="email" placeholder="Email*">
+                        </div>
+                        <div class="flex flex-row justify-around gap-14">
+                            <input class="w-1/2 p-2 text-lg font-semibold  border-b-2 bg-blue-950 border-white"
+                                type="number" placeholder="Phone*">
+                            <input class=" w-1/2 p-2 text-lg font-semibold  border-b-2 bg-blue-950 border-white"
+                                type="email" placeholder="Project details">
+                        </div>
+                        <!-- <input class="p-2 w-fit mx-auto" type="file"> -->
+                        <button class="bg-[#808080] p-2 rounded-lg text-lg hover:bg-[#0F79B9]">Send Message</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <footer class="py-6 bg-[#3a3a3a] text-white">
+                <div class="container px-6 mx-auto space-y-6 divide-y dark:divide-gray-400 md:space-y-12 divide-opacity-50">
+                    <div class="grid grid-cols-12 gap-4">
+    
+                        <div class="col-span-12 text-center md:text-left md:col-span-3">
+                            <p class="pb-1 text-lg font-medium">Dubai Office</p>
+                            <ul>
+                                <li>
+                                    <p class="hover:text-blue-700">Central
+                                        Building, Shop No. G-11, <br> Naif,
+                                        Deira, Dubai, UAE.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="hover:text-blue-700"> Email:
+                                        atctechlimited@gmail.com</p>
+                                </li>
+    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-span-12 text-center md:text-left md:col-span-3">
+                            <p class="pb-1 text-lg font-medium">Bangladesh</p>
+                            <ul>
+                                <li>
+                                    <p class="hover:text-blue-700">Email: atctechlimited@gamil.com</p>
+                                </li>
+    
+                            </ul>
+                        </div>
+                        <div
+                            class="pb-6 col-span-full md:pb-0 md:col-span-6  flex flex-col md:flex-row justify-around items-center">
+                            <img class="w-48" src="/asset/icon/ATC-Logo-white.png" alt="">
+                            <img class="w-48" src="/asset/icon/5dff5369c15edNews_6-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grid justify-center pt-6 lg:justify-between">
+                        <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
+                            <span>©2024 All rights reserved | ATC Tech Limited </span>
+    
+                        </div>
+                        <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
+                            <a rel="noopener noreferrer" href="#" title="Email"
+                                class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-[#0F79B9] dark:text-gray-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-5">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </a>
+                            <a rel="noopener noreferrer" href="#" title="Twitter"
+                                class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-[#0F79B9] dark:text-gray-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"
+                                    class="w-5 h-5">
+                                    <path
+                                        d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a rel="noopener noreferrer" href="#" title="GitHub"
+                                class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-[#0F79B9] dark:text-gray-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                    class="w-5 h-5">
+                                    <path
+                                        d="M10.9,2.1c-4.6,0.5-8.3,4.2-8.8,8.7c-0.5,4.7,2.2,8.9,6.3,10.5C8.7,21.4,9,21.2,9,20.8v-1.6c0,0-0.4,0.1-0.9,0.1 c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C5.1,16.3,5,16.3,5,16.2C5,16,5.3,16,5.4,16c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1 c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C7.1,8.8,7,8.3,7,7.6C7,7.2,7,6.6,7.3,6 c0,0,1.4,0,2.8,1.3C10.6,7.1,11.3,7,12,7s1.4,0.1,2,0.3C15.3,6,16.8,6,16.8,6C17,6.6,17,7.2,17,7.6c0,0.8-0.1,1.2-0.2,1.4 c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3 C22,6.1,16.9,1.4,10.9,2.1z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const slider = document.querySelector('#slider');
+                setTimeout(function moveSlide() {
+                    const max = slider.scrollWidth - slider.clientWidth;
+                    const left = slider.clientWidth;
+        
+                    if (max === slider.scrollLeft) {
+                        slider.scrollTo({ left: 0, behavior: 'smooth' })
+                    } else {
+                        slider.scrollBy({ left, behavior: 'smooth' })
+                    }
+        
+                    setTimeout(moveSlide, 2000)
+                }, 2000)
+        
+            })
+        </script>
     </body>
+
+
 </html>
